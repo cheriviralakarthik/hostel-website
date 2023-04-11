@@ -31,7 +31,7 @@ const Receiver = () => {
   };
   const submitrequest = async (id) => {
     const responce = await axios.post(
-      "http://43.205.117.217/requestforhostel",
+      "http://43.205.117.217:4000/requestforhostel",
       {
         name: request.name,
         phno: request.phno,
